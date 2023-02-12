@@ -10,6 +10,7 @@ import CoreData
 
 struct TodayView: View {
     @Environment(\.managedObjectContext) private var viewContext
+    @EnvironmentObject var store: Store<AppState>
 
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],

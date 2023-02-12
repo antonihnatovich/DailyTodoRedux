@@ -18,6 +18,13 @@
 		3A800AE82999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */; };
 		3A800AF62999165A000E2698 /* NextDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AF52999165A000E2698 /* NextDayView.swift */; };
 		3A800AF829991665000E2698 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AF729991665000E2698 /* HistoryView.swift */; };
+		3A800B0029991942000E2698 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AFF29991942000E2698 /* Store.swift */; };
+		3A800B0229991969000E2698 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B0129991969000E2698 /* Action.swift */; };
+		3A800B0429991987000E2698 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B0329991987000E2698 /* Reducer.swift */; };
+		3A800B0629991997000E2698 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B0529991997000E2698 /* Middleware.swift */; };
+		3A800B09299919C0000E2698 /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B08299919C0000E2698 /* ReduxState.swift */; };
+		3A800B0B299919D2000E2698 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B0A299919D2000E2698 /* AppState.swift */; };
+		3A800B0D29991C0E000E2698 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800B0C29991C0E000E2698 /* AppReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3A800AF52999165A000E2698 /* NextDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDayView.swift; sourceTree = "<group>"; };
 		3A800AF729991665000E2698 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3A800AFF29991942000E2698 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3A800B0129991969000E2698 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		3A800B0329991987000E2698 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		3A800B0529991997000E2698 /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		3A800B08299919C0000E2698 /* ReduxState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
+		3A800B0A299919D2000E2698 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3A800B0C29991C0E000E2698 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,7 @@
 		3A800AC42999073D000E2698 /* DailyTodoRedux */ = {
 			isa = PBXGroup;
 			children = (
+				3A800AFA29991918000E2698 /* Redux */,
 				3A800AF429991649000E2698 /* Views */,
 				3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */,
 				3A800AC92999073F000E2698 /* Assets.xcassets */,
@@ -140,11 +155,73 @@
 		3A800AF429991649000E2698 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3A800AF9299916DC000E2698 /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A800AF9299916DC000E2698 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
 				3A800AC72999073D000E2698 /* TodayView.swift */,
 				3A800AF52999165A000E2698 /* NextDayView.swift */,
 				3A800AF729991665000E2698 /* HistoryView.swift */,
 			);
-			path = Views;
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		3A800AFA29991918000E2698 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				3A800B07299919B2000E2698 /* States */,
+				3A800AFE29991936000E2698 /* Actions */,
+				3A800AFD2999192A000E2698 /* Reducers */,
+				3A800AFC29991925000E2698 /* Middlewares */,
+				3A800AFB2999191D000E2698 /* Store */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		3A800AFB2999191D000E2698 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3A800AFF29991942000E2698 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		3A800AFC29991925000E2698 /* Middlewares */ = {
+			isa = PBXGroup;
+			children = (
+				3A800B0529991997000E2698 /* Middleware.swift */,
+			);
+			path = Middlewares;
+			sourceTree = "<group>";
+		};
+		3A800AFD2999192A000E2698 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				3A800B0329991987000E2698 /* Reducer.swift */,
+				3A800B0C29991C0E000E2698 /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		3A800AFE29991936000E2698 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				3A800B0129991969000E2698 /* Action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		3A800B07299919B2000E2698 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				3A800B08299919C0000E2698 /* ReduxState.swift */,
+				3A800B0A299919D2000E2698 /* AppState.swift */,
+			);
+			path = States;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A800B0029991942000E2698 /* Store.swift in Sources */,
 				3A800AF62999165A000E2698 /* NextDayView.swift in Sources */,
 				3A800AF829991665000E2698 /* HistoryView.swift in Sources */,
+				3A800B0B299919D2000E2698 /* AppState.swift in Sources */,
 				3A800AD22999073F000E2698 /* DailyTodoRedux.xcdatamodeld in Sources */,
 				3A800ACF2999073F000E2698 /* Persistence.swift in Sources */,
+				3A800B0629991997000E2698 /* Middleware.swift in Sources */,
+				3A800B0D29991C0E000E2698 /* AppReducer.swift in Sources */,
+				3A800B0429991987000E2698 /* Reducer.swift in Sources */,
+				3A800B09299919C0000E2698 /* ReduxState.swift in Sources */,
+				3A800B0229991969000E2698 /* Action.swift in Sources */,
 				3A800AC82999073D000E2698 /* TodayView.swift in Sources */,
 				3A800AC62999073D000E2698 /* DailyTodoReduxApp.swift in Sources */,
 			);

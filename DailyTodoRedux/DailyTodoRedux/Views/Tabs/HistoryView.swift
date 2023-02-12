@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct HistoryView: View {
+    @Environment(\.managedObjectContext) private var viewContext
+    @EnvironmentObject var store: Store<AppState>
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
