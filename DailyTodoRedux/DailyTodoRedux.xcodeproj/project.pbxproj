@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A800AC62999073D000E2698 /* DailyTodoReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */; };
+		3A800AC82999073D000E2698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AC72999073D000E2698 /* ContentView.swift */; };
+		3A800ACA2999073F000E2698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A800AC92999073F000E2698 /* Assets.xcassets */; };
+		3A800ACD2999073F000E2698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A800ACC2999073F000E2698 /* Preview Assets.xcassets */; };
+		3A800ACF2999073F000E2698 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800ACE2999073F000E2698 /* Persistence.swift */; };
+		3A800AD22999073F000E2698 /* DailyTodoRedux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AD02999073F000E2698 /* DailyTodoRedux.xcdatamodeld */; };
+		3A800ADC2999073F000E2698 /* DailyTodoReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800ADB2999073F000E2698 /* DailyTodoReduxTests.swift */; };
+		3A800AE62999073F000E2698 /* DailyTodoReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AE52999073F000E2698 /* DailyTodoReduxUITests.swift */; };
+		3A800AE82999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A800AD82999073F000E2698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A800ABA2999073D000E2698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A800AC12999073D000E2698;
+			remoteInfo = DailyTodoRedux;
+		};
+		3A800AE22999073F000E2698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A800ABA2999073D000E2698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A800AC12999073D000E2698;
+			remoteInfo = DailyTodoRedux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A800AC22999073D000E2698 /* DailyTodoRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTodoRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxApp.swift; sourceTree = "<group>"; };
+		3A800AC72999073D000E2698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A800AC92999073F000E2698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A800ACC2999073F000E2698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A800ACE2999073F000E2698 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3A800AD12999073F000E2698 /* DailyTodoRedux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyTodoRedux.xcdatamodel; sourceTree = "<group>"; };
+		3A800AD72999073F000E2698 /* DailyTodoReduxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTodoReduxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A800ADB2999073F000E2698 /* DailyTodoReduxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxTests.swift; sourceTree = "<group>"; };
+		3A800AE12999073F000E2698 /* DailyTodoReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTodoReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A800AE52999073F000E2698 /* DailyTodoReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxUITests.swift; sourceTree = "<group>"; };
+		3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A800ABF2999073D000E2698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800AD42999073F000E2698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800ADE2999073F000E2698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A800AB92999073D000E2698 = {
+			isa = PBXGroup;
+			children = (
+				3A800AC42999073D000E2698 /* DailyTodoRedux */,
+				3A800ADA2999073F000E2698 /* DailyTodoReduxTests */,
+				3A800AE42999073F000E2698 /* DailyTodoReduxUITests */,
+				3A800AC32999073D000E2698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A800AC32999073D000E2698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A800AC22999073D000E2698 /* DailyTodoRedux.app */,
+				3A800AD72999073F000E2698 /* DailyTodoReduxTests.xctest */,
+				3A800AE12999073F000E2698 /* DailyTodoReduxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A800AC42999073D000E2698 /* DailyTodoRedux */ = {
+			isa = PBXGroup;
+			children = (
+				3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */,
+				3A800AC72999073D000E2698 /* ContentView.swift */,
+				3A800AC92999073F000E2698 /* Assets.xcassets */,
+				3A800ACE2999073F000E2698 /* Persistence.swift */,
+				3A800AD02999073F000E2698 /* DailyTodoRedux.xcdatamodeld */,
+				3A800ACB2999073F000E2698 /* Preview Content */,
+			);
+			path = DailyTodoRedux;
+			sourceTree = "<group>";
+		};
+		3A800ACB2999073F000E2698 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A800ACC2999073F000E2698 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A800ADA2999073F000E2698 /* DailyTodoReduxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A800ADB2999073F000E2698 /* DailyTodoReduxTests.swift */,
+			);
+			path = DailyTodoReduxTests;
+			sourceTree = "<group>";
+		};
+		3A800AE42999073F000E2698 /* DailyTodoReduxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A800AE52999073F000E2698 /* DailyTodoReduxUITests.swift */,
+				3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */,
+			);
+			path = DailyTodoReduxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A800AC12999073D000E2698 /* DailyTodoRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A800AEB2999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoRedux" */;
+			buildPhases = (
+				3A800ABE2999073D000E2698 /* Sources */,
+				3A800ABF2999073D000E2698 /* Frameworks */,
+				3A800AC02999073D000E2698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyTodoRedux;
+			productName = DailyTodoRedux;
+			productReference = 3A800AC22999073D000E2698 /* DailyTodoRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A800AD62999073F000E2698 /* DailyTodoReduxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A800AEE2999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoReduxTests" */;
+			buildPhases = (
+				3A800AD32999073F000E2698 /* Sources */,
+				3A800AD42999073F000E2698 /* Frameworks */,
+				3A800AD52999073F000E2698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A800AD92999073F000E2698 /* PBXTargetDependency */,
+			);
+			name = DailyTodoReduxTests;
+			productName = DailyTodoReduxTests;
+			productReference = 3A800AD72999073F000E2698 /* DailyTodoReduxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A800AE02999073F000E2698 /* DailyTodoReduxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A800AF12999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoReduxUITests" */;
+			buildPhases = (
+				3A800ADD2999073F000E2698 /* Sources */,
+				3A800ADE2999073F000E2698 /* Frameworks */,
+				3A800ADF2999073F000E2698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A800AE32999073F000E2698 /* PBXTargetDependency */,
+			);
+			name = DailyTodoReduxUITests;
+			productName = DailyTodoReduxUITests;
+			productReference = 3A800AE12999073F000E2698 /* DailyTodoReduxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A800ABA2999073D000E2698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3A800AC12999073D000E2698 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3A800AD62999073F000E2698 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3A800AC12999073D000E2698;
+					};
+					3A800AE02999073F000E2698 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3A800AC12999073D000E2698;
+					};
+				};
+			};
+			buildConfigurationList = 3A800ABD2999073D000E2698 /* Build configuration list for PBXProject "DailyTodoRedux" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A800AB92999073D000E2698;
+			productRefGroup = 3A800AC32999073D000E2698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A800AC12999073D000E2698 /* DailyTodoRedux */,
+				3A800AD62999073F000E2698 /* DailyTodoReduxTests */,
+				3A800AE02999073F000E2698 /* DailyTodoReduxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A800AC02999073D000E2698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A800ACD2999073F000E2698 /* Preview Assets.xcassets in Resources */,
+				3A800ACA2999073F000E2698 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800AD52999073F000E2698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800ADF2999073F000E2698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A800ABE2999073D000E2698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A800AD22999073F000E2698 /* DailyTodoRedux.xcdatamodeld in Sources */,
+				3A800ACF2999073F000E2698 /* Persistence.swift in Sources */,
+				3A800AC82999073D000E2698 /* ContentView.swift in Sources */,
+				3A800AC62999073D000E2698 /* DailyTodoReduxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800AD32999073F000E2698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A800ADC2999073F000E2698 /* DailyTodoReduxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A800ADD2999073F000E2698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A800AE62999073F000E2698 /* DailyTodoReduxUITests.swift in Sources */,
+				3A800AE82999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A800AD92999073F000E2698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A800AC12999073D000E2698 /* DailyTodoRedux */;
+			targetProxy = 3A800AD82999073F000E2698 /* PBXContainerItemProxy */;
+		};
+		3A800AE32999073F000E2698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A800AC12999073D000E2698 /* DailyTodoRedux */;
+			targetProxy = 3A800AE22999073F000E2698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A800AE92999073F000E2698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A800AEA2999073F000E2698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A800AEC2999073F000E2698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyTodoRedux/Preview Content\"";
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A800AED2999073F000E2698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyTodoRedux/Preview Content\"";
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A800AEF2999073F000E2698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyTodoRedux.app/DailyTodoRedux";
+			};
+			name = Debug;
+		};
+		3A800AF02999073F000E2698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoReduxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyTodoRedux.app/DailyTodoRedux";
+			};
+			name = Release;
+		};
+		3A800AF22999073F000E2698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyTodoRedux;
+			};
+			name = Debug;
+		};
+		3A800AF32999073F000E2698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65UQE395BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = by.ios.anton.dailyTodoRedux.DailyTodoReduxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyTodoRedux;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A800ABD2999073D000E2698 /* Build configuration list for PBXProject "DailyTodoRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A800AE92999073F000E2698 /* Debug */,
+				3A800AEA2999073F000E2698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A800AEB2999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A800AEC2999073F000E2698 /* Debug */,
+				3A800AED2999073F000E2698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A800AEE2999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoReduxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A800AEF2999073F000E2698 /* Debug */,
+				3A800AF02999073F000E2698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A800AF12999073F000E2698 /* Build configuration list for PBXNativeTarget "DailyTodoReduxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A800AF22999073F000E2698 /* Debug */,
+				3A800AF32999073F000E2698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A800AD02999073F000E2698 /* DailyTodoRedux.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A800AD12999073F000E2698 /* DailyTodoRedux.xcdatamodel */,
+			);
+			currentVersion = 3A800AD12999073F000E2698 /* DailyTodoRedux.xcdatamodel */;
+			path = DailyTodoRedux.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A800ABA2999073D000E2698 /* Project object */;
+}
