@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A800AC62999073D000E2698 /* DailyTodoReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */; };
-		3A800AC82999073D000E2698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AC72999073D000E2698 /* ContentView.swift */; };
+		3A800AC82999073D000E2698 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AC72999073D000E2698 /* TodayView.swift */; };
 		3A800ACA2999073F000E2698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A800AC92999073F000E2698 /* Assets.xcassets */; };
 		3A800ACD2999073F000E2698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A800ACC2999073F000E2698 /* Preview Assets.xcassets */; };
 		3A800ACF2999073F000E2698 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800ACE2999073F000E2698 /* Persistence.swift */; };
@@ -16,6 +16,8 @@
 		3A800ADC2999073F000E2698 /* DailyTodoReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800ADB2999073F000E2698 /* DailyTodoReduxTests.swift */; };
 		3A800AE62999073F000E2698 /* DailyTodoReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AE52999073F000E2698 /* DailyTodoReduxUITests.swift */; };
 		3A800AE82999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */; };
+		3A800AF62999165A000E2698 /* NextDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AF52999165A000E2698 /* NextDayView.swift */; };
+		3A800AF829991665000E2698 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A800AF729991665000E2698 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		3A800AC22999073D000E2698 /* DailyTodoRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyTodoRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxApp.swift; sourceTree = "<group>"; };
-		3A800AC72999073D000E2698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A800AC72999073D000E2698 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		3A800AC92999073F000E2698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A800ACC2999073F000E2698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A800ACE2999073F000E2698 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		3A800AE12999073F000E2698 /* DailyTodoReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyTodoReduxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A800AE52999073F000E2698 /* DailyTodoReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxUITests.swift; sourceTree = "<group>"; };
 		3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTodoReduxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A800AF52999165A000E2698 /* NextDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextDayView.swift; sourceTree = "<group>"; };
+		3A800AF729991665000E2698 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,8 @@
 		3A800AC42999073D000E2698 /* DailyTodoRedux */ = {
 			isa = PBXGroup;
 			children = (
+				3A800AF429991649000E2698 /* Views */,
 				3A800AC52999073D000E2698 /* DailyTodoReduxApp.swift */,
-				3A800AC72999073D000E2698 /* ContentView.swift */,
 				3A800AC92999073F000E2698 /* Assets.xcassets */,
 				3A800ACE2999073F000E2698 /* Persistence.swift */,
 				3A800AD02999073F000E2698 /* DailyTodoRedux.xcdatamodeld */,
@@ -131,6 +135,16 @@
 				3A800AE72999073F000E2698 /* DailyTodoReduxUITestsLaunchTests.swift */,
 			);
 			path = DailyTodoReduxUITests;
+			sourceTree = "<group>";
+		};
+		3A800AF429991649000E2698 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A800AC72999073D000E2698 /* TodayView.swift */,
+				3A800AF52999165A000E2698 /* NextDayView.swift */,
+				3A800AF729991665000E2698 /* HistoryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A800AF62999165A000E2698 /* NextDayView.swift in Sources */,
+				3A800AF829991665000E2698 /* HistoryView.swift in Sources */,
 				3A800AD22999073F000E2698 /* DailyTodoRedux.xcdatamodeld in Sources */,
 				3A800ACF2999073F000E2698 /* Persistence.swift in Sources */,
-				3A800AC82999073D000E2698 /* ContentView.swift in Sources */,
+				3A800AC82999073D000E2698 /* TodayView.swift in Sources */,
 				3A800AC62999073D000E2698 /* DailyTodoReduxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

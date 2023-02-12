@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TodayView.swift
 //  DailyTodoRedux
 //
 //  Created by Антон on 12/02/2023.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct TodayView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -81,8 +81,8 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct TodayView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        TodayView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
